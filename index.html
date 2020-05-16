@@ -10,11 +10,25 @@
   
   <defs>
     <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#56c5d6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8fdfdc;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#8fdfdc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:LightSalmon;stop-opacity:1" />
     </linearGradient>
   </defs>
    
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:LightSalmon;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:DarkSalmon;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:DarkSalmon;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:LightSalmon;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
     <rect width="1200" height="360" fill="url(#grad2)" x="0" y="0"/>
 <!--- cloud --->
   <ellipse cx="300" cy="360" rx="250" ry="150" fill="#fff">
@@ -72,12 +86,12 @@
                         L800 310
                         L1200 530Z
                       "/>
-  <path fill="black" d="M50 500
+  <path fill="url(#grad3)" d="M50 500
                         L50 550
                         L520 800
                         L520 750z
                         "/>
-   <path fill="black" d="M520 800
+   <path fill="url(#grad4)" d="M520 800
                          L520 750
                          L1200 530
                          L1200 580z
@@ -109,15 +123,14 @@
   <path fill="#77cabe" d="M575 325 L570 270 L690 235 L760 270 Z"/>
   <path fill="#5ea69b" d="M520 250 L570 270 L690 235 L640 215 Z"/>
   
-  <!--ซุ้มโค้งชั้น2ที่กะพิกัดยากๆอะ-->
-  <path d="M 500 483 A 43 35 150 0 1 590 453" stroke="black" fill="none" />
-  <path d="M 600 450 A 43 35 150 0 1 685 421" stroke="black" fill="none" />
-  <path d="M 695 418 A 39.5 35 145 0 1 770 393" stroke="black" fill="none" />
-  <path d="M 280 395 A 20.5 35 160 0 1 330 420" stroke="red" fill="none" />
-  <path d="M 340 425 A 20.5 35 157 0 1 400 453" stroke="red" fill="none" />
-  <path d="M 410 460 A 20.5 35 159 0 1 470 488" stroke="red" fill="none" />  
-  <path d="M 855 365 A 35 29 0 1 1 920 344 " stroke="black" fill="none" />
-  
+ <!--ซุ้มโค้งชั้น2ที่กะพิกัดยากๆอะ-->
+  <path d="M 500 483 A 43 35 150 0 1 590 453" fill="#ffdca9" />
+  <path d="M 600 450 A 43 35 150 0 1 685 421"  fill="#ffdca9" />
+  <path d="M 695 418 A 39.5 35 145 0 1 770 393"  fill="#ffdca9" />
+  <path d="M 280 395 A 20.5 35 160 0 1 330 420"  fill="#ffe2b8" />
+  <path d="M 340 425 A 20.5 35 157 0 1 400 453"  fill="#ffe2b8" />
+  <path d="M 410 460 A 20.5 35 159 0 1 470 488"  fill="#ffe2b8" />  
+  <path d="M 855 365 A 35 29 0 1 1 920 344 "  fill="#ffdca9" />
   <!--ยอด-->
   <path fill="#fff2df" d="M819 20 L820 5 L821 20 Z"/>
   <circle cx="820" cy="25" r="5" fill="#fff2df" />
@@ -198,7 +211,6 @@
     <line x1="879" y1="614.5" x2="880" y2="569" stroke="black" stroke-width="1.0"/>
     <path d="M920 568 L920 615.5 L915 597 L915 558.5Z" fill="#736e64" stroke="black" stroke-width="0.5"/>
  </g>
-  
   <!--ประตูซ้าย-->
   <g fill="#ffe2b8">
     <!--ประตูซ้าย1-->
@@ -230,7 +242,7 @@
            L511 510 Z"/>
   <!--ฝาหน้า-->
   <path fill="#ffe2b8"
-        d="M535 525 L535 615 L520 620 L520 530 Z"/>  
+        d="M535 525 L535 610 L520 620 L520 530 Z"/>  
   </g>
 <!--กำแพงยื่นๆ2-->  
   <g>
